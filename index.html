@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Elissa Tong For Hire</title>
+    <title>Elissa Tong, etc.</title>
 
     <!-- Responsive Web Design: causes width of window to scale for mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,23 +48,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Elissa Tong, etc.</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Profile<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+		<li class="dropdown-header">Technical Expertise</li>
+                <li><a href="#techresume">Resume</a></Li>
+                <li><a href="#techprojects">Projects</a></li>
+                <li><a href="#technews">News</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li class="dropdown-header">Teaching Experiences</li>
+                <li><a href="#teachresume">Resume</a></li>
+                <li><a href="#lessonplans">Lesson Plans</a></li>
               </ul>
             </li>
           </ul>
@@ -77,6 +76,53 @@
       </div>
     </div>
 
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
@@ -84,12 +130,12 @@
       <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
       <!-- www.google.com/fonts/specimen/Ubuntu -->
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
-      <div class="row heading">
+      <div class="row">
         <div class="col-md-12">
           <h1>Choictatic!</h1>
         </div>
       </div> 
-      <div class="row subheading">
+      <div class="row">
         <div class="col-md-12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
